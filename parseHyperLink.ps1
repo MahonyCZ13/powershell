@@ -4,7 +4,7 @@
 Clear-Host
 
 Try {
-    $urls = Get-Content C:\Users\pmaronek\Documents\projects_Local\repos\powershell\urlsRaw.txt
+    $urls = Get-Content C:\Users\PROFILE\Documents\projects_Local\repos\powershell\SourceFiles\urlsRaw.txt
     Write-Host "File loaded" -ForegroundColor Yellow
 
     $result = @()
@@ -14,7 +14,7 @@ Try {
         $result += $array[2]
     }
 
-    Write-Host $result 
+    Write-Output $result | Out-File -FilePath ".\OutputFiles\exported_URLs.csv" -Encoding ascii
 
     Write-Host "URLs extracted successfully"  -ForegroundColor Green
 }
