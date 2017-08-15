@@ -1,8 +1,10 @@
+Clear-Host
+
 $commandName = $MyInvocation.MyCommand
 $currentDate = Get-Date -UFormat "%Y%M%D"
+$curentPath = Get-Location
 
-
-$lines = Import-Csv 'C:\Users\PROFILE\Documents\projects_Local\powershell\list.csv'
+$lines = Import-Csv $curentPath'\SourceFiles\list.csv'
 
 Write-Host "Import succeded" -ForegroundColor Green
 
