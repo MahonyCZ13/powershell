@@ -3,8 +3,13 @@
 
 Clear-Host
 
+$curentPath = Get-Location
+$sourceLocation = "\SourceFiles\"
+$sourceFileName = "urlsRaw.txt"
+
 Try {
-    $urls = Get-Content C:\Users\PROFILE\Documents\projects_Local\repos\powershell\SourceFiles\urlsRaw.txt
+    
+    $urls = Get-Content $curentPath$sourceLocation$sourceFileName
     Write-Host "File loaded" -ForegroundColor Yellow
 
     $result = @()
@@ -16,8 +21,14 @@ Try {
 
     Write-Output $result | Out-File -FilePath ".\OutputFiles\exported_URLs.csv" -Encoding ascii
 
-    Write-Host "URLs extracted successfully"  -ForegroundColor Green
+    Write-Host "URLs extracted successfully. Opening file..."  -ForegroundColor Green
+
+    notepad.exe ".\OutputFiles\exported_URLs.csv"
+
 }
+
 Catch {
+
     Write-Host "Error loading file" -ForegroundColor Red
+
 }
