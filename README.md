@@ -2,9 +2,9 @@
 
 All things related to PowerShell:
 
-*Sandbox
-*Automation scripts
-*Resources
+* Sandbox
+* Automation scripts
+* Resources
 
 ### Tools Used
 
