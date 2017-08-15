@@ -23,7 +23,7 @@ Try {
 
     Write-Host "URLs extracted successfully. Opening file..."  -ForegroundColor Green
 
-    notepad.exe ".\OutputFiles\exported_URLs.csv"
+    Invoke-Item ".\OutputFiles\exported_URLs.csv"
 
 }
 
