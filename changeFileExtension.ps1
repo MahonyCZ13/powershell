@@ -2,7 +2,7 @@
 
 $source = '*.jfif'
 $target = 'jpeg'
-$location = 'C:\Users\pmaronek\Downloads\contacts\'
+$location = 'C:\Users\PROFILE\Downloads\contacts\'
 $path = $location + $source
 
 Get-ChildItem $path | rename-item -newname {

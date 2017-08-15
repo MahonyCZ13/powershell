@@ -2,7 +2,7 @@ $commandName = $MyInvocation.MyCommand
 $currentDate = Get-Date -UFormat "%Y%M%D"
 
 
-$lines = Import-Csv 'C:\Users\pmaronek\Documents\projects_Local\powershell\list.csv'
+$lines = Import-Csv 'C:\Users\PROFILE\Documents\projects_Local\powershell\list.csv'
 
 Write-Host "Import succeded" -ForegroundColor Green
 
