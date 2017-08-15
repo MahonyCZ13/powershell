@@ -16,10 +16,13 @@ Try {
 
     foreach($url in $urls){
         $array = $url.Split(">").Split("<")
-        $result += $array[2]
+        $resultString = $array[2] + "," + $array[6]
+        Write-Host $resultString
+        #$result += $resultString
     }
-
-    Write-Output $result | Out-File -FilePath ".\OutputFiles\exported_URLs.csv" -Encoding ascii
+    
+    "SourceUrl, TargetUrl" | Out-File -FilePath ".\OutputFiles\exported_URLs.csv" -Encoding ascii
+    #Write-Output $result | Out-File -FilePath ".\OutputFiles\exported_URLs.csv" -Encoding ascii
 
     Write-Host "URLs extracted successfully. Opening file..."  -ForegroundColor Green
 
