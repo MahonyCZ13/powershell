@@ -1,0 +1,290 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170815150243
+Username: D-PLOY\pmaronek
+RunAs User: D-PLOY\pmaronek
+Machine: DPLW10-098 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\logs\1502794611-c81e95dc-ab4e-4c3f-8360-390d0446c8a81502794603265\EditorServices.log' -SessionDetailsPath 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\sessions\PSES-VSCode-8084-354206' -FeatureFlags @()
+Process ID: 8308
+PSVersion: 5.1.14393.1480
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.1480
+BuildVersion: 10.0.14393.1480
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\OutputFiles\iterator.ps1_20170208-15-17_site4902.txt
+Processing line:  3
+Transcript started, output file is .\OutputFiles\iterator.ps1_20170208-15-17_109.txt
+Action completed
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      8308
+computerName                   DPLW10-098
+instanceId                     c0d025f7-e9b9-4010-9be7-fe9b8fa3534b
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-AssignedAccess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Clear-AssignedAccess                               1.0.0.0    AssignedAccess
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-AssignedAccess"
+
+NAME
+    Clear-AssignedAccess
+
+SYNTAX
+    Clear-AssignedAccess [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-AssignedAccess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Clear-AssignedAccess                               1.0.0.0    AssignedAccess
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-AssignedAccess"
+
+NAME
+    Clear-AssignedAccess
+
+SYNTAX
+    Clear-AssignedAccess [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-AssignedAccess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Clear-AssignedAccess                               1.0.0.0    AssignedAccess
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-AssignedAccess"
+
+NAME
+    Clear-AssignedAccess
+
+SYNTAX
+    Clear-AssignedAccess [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-AssignedAccess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Clear-AssignedAccess                               1.0.0.0    AssignedAccess
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-AssignedAccess"
+
+NAME
+    Clear-AssignedAccess
+
+SYNTAX
+    Clear-AssignedAccess [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-AssignedAccess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Clear-AssignedAccess                               1.0.0.0    AssignedAccess
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-AssignedAccess"
+
+NAME
+    Clear-AssignedAccess
+
+SYNTAX
+    Clear-AssignedAccess [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-AssignedAccess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Clear-AssignedAccess                               1.0.0.0    AssignedAccess
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-AssignedAccess"
+
+NAME
+    Clear-AssignedAccess
+
+SYNTAX
+    Clear-AssignedAccess [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-History"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Clear-History                                      3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-History"
+
+NAME
+    Clear-History
+
+SYNTAX
+    Clear-History [[-Id] <int[]>] [[-Count] <int>] [-Newest] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Clear-History [[-Count] <int>] [-CommandLine <string[]>] [-Newest] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    clhy
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Clear-History -Online" or
+           go to http://go.microsoft.com/fwlink/?LinkID=135199.
+
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Clear-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Clear-Host
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Clear-Host"
+
+NAME
+    Clear-Host
+
+SYNOPSIS
+
+
+SYNTAX
+    Clear-Host [<CommonParameters>]
+
+
+DESCRIPTION
+
+
+RELATED LINKS
+    http://go.microsoft.com/fwlink/?LinkID=225747
+
+REMARKS
+    To see the examples, type: "get-help Clear-Host -examples".
+    For more information, type: "get-help Clear-Host -detailed".
+    For technical information, type: "get-help Clear-Host -full".
+    For online help, type: "get-help Clear-Host -online"
+
+
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> cls
+PS C:\Users\pmaronek\Documents\projects_Local\repos\powershell> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      8308
+computerName                   DPLW10-098
+instanceId                     c0d025f7-e9b9-4010-9be7-fe9b8fa3534b
+
+
