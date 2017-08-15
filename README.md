@@ -8,5 +8,5 @@ All things related to PowerShell:
 
 ### Tools Used
 
-*Visual Studio Code
-*PowerShell on Windows 10
+* Visual Studio Code
+* PowerShell on Windows 10
