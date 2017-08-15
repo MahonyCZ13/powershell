@@ -1,0 +1,28 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170814164004
+Username: D-PLOY\pmaronek
+RunAs User: D-PLOY\pmaronek
+Machine: DPLW10-098 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\WINDOWS\Sysnative\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\logs\1502721551-d4643095-6c51-433b-8631-91119dfe801e1502721543322\EditorServices.log' -SessionDetailsPath 'C:\Users\pmaronek\.vscode\extensions\ms-vscode.powershell-1.4.1\sessions\PSES-VSCode-15940-252845' -FeatureFlags @()
+Process ID: 20164
+PSVersion: 5.1.14393.1480
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.1480
+BuildVersion: 10.0.14393.1480
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\OutputFiles\iterator.ps1_20174008-14-17_109.txt
+Action completed
+PS C:\Users\pmaronek\Documents\projects_Local\powershell> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      20164
+computerName                   DPLW10-098
+instanceId                     4dd07ed2-b7c3-4031-a0f4-f773ce0a09f7
+
+
