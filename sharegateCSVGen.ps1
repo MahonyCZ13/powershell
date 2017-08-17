@@ -1,5 +1,5 @@
-#Author: Petr Maronek
-#Generate CSV for migration script
+# Author: Petr Maronek
+# Generate CSV for migration script
 
 Clear-Host
 

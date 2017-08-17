@@ -1,4 +1,5 @@
-﻿# A script for changing the file extensions
+﻿# Author: Petr Maronek
+# A script for changing the file extensions
 
 $source = '*.jfif'
 $target = 'jpeg'

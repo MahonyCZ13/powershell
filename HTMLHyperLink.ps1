@@ -1,4 +1,4 @@
-# Author Petr MAronek
+# Author: Petr MAronek
 # Parse HTML formatted hyperlinks
 
 Clear-Host
