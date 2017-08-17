@@ -3,9 +3,9 @@
 
 Clear-Host
 
-$CurrentDT = Get-Date -Format "d-MM-yyyy HH:mm:ss"
+$StartTime = Get-Date -Format "d-MM-yyyy HH:mm:ss"
 
-Write-Host "Script started" $CurrentDT
+Write-Host "Script started" $StartTime
 
 Try {
 
@@ -37,7 +37,8 @@ Try {
 Catch {
 
     Write-Host "Error loading file." -ForegroundColor Red
-    
+
 }
 
-Write-Host "Script ended" $CurrentDT
+$EndTime = Get-Date -Format "d-MM-yyyy HH:mm:ss"
+Write-Host "Script ended" $EndTime
