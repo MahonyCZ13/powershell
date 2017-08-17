@@ -3,13 +3,9 @@
 
 Clear-Host
 
-$curentPath = Get-Location
-$sourceLocation = "\SourceFiles\"
-$sourceFileName = "urlsRaw.txt"
-
 Try {
     
-    $urls = Get-Content $curentPath$sourceLocation$sourceFileName
+    $urls = Get-Content .\SourceFiles\urlsRaw.txt
     Write-Host "File loaded" -ForegroundColor Yellow
 
     "SourceUrl,TargetUrl,owner,batch" | Out-File -FilePath ".\OutputFiles\exported_URLs.csv" -Encoding ascii
