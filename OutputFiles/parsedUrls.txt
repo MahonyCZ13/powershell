@@ -1,0 +1,2 @@
+http://collaboration.contoso.com/teamsites/site4211
+https://contoso.sharepoint.com/sites/4488

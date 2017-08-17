@@ -1,0 +1,2 @@
+<a href="http://collaboration.contoso.com/teamsites/site4211">http://collaboration.contoso.com/teamsites/site4211</a>
+<a href="https://contoso.sharepoint.com/sites/4488">https://contoso.sharepoint.com/sites/4488</a>
