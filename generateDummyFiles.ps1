@@ -7,7 +7,7 @@ $input = Read-Host -Prompt "How many files you want to generate?"
 
 $i = 0
 
-Write-Host "OK. Generating files..."
+Write-Host "OK. Generating files..." -ForegroundColor Yellow
 
 $StartTime = Get-Date -Format "d-MM-yyyy HH:mm:ss"
 
