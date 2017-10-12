@@ -1,0 +1,1 @@
+Get-ChildItem "C:\Users\Profile\Google Drive\Google Photos" -filter *.jpg -Recurse| % {Copy-Item -Path $_.FullName -Destination "C:\Users\Profile\Pictures\Photos\" }
