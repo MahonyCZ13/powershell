@@ -1,5 +1,16 @@
-﻿# Author: Petr Maronek
-# A script for changing the file extensions
+# Script changeFileExtension.ps1
+<#
+.SYNOPSIS
+    Change file extension for all files in the folder
+.NAME
+    Extension Changer
+.DESCRIPTION
+    Changes file extension. User is prompted to specify old and new extension.
+.NOTES
+    Author: Petr Maronek
+.LINK
+    https://insidecurlybrackets.azurewebsites.net/
+#>
 
 Clear-Host
 
