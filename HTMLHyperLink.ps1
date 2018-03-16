@@ -3,9 +3,9 @@
 .SYNOPSIS
     Parse HTML formatted hyperlinks
 .NAME
-    Extension Changer
+    HTML link parser
 .DESCRIPTION
-    Changes file extension. User is prompted to specify old and new extension.
+    Parses html links from <a href="#"></a> html tag.
 .NOTES
     Author: Petr Maronek
 .LINK
