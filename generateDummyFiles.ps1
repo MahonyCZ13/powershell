@@ -1,5 +1,16 @@
-# Author: Petr Maronek
-# A script for generating lots of dummy files
+# generateDummyFiles.ps1
+<#
+.SYNOPSIS
+    A script for generating lots of dummy files
+.NAME
+    Dummy file enerator
+.DESCRIPTION
+    Changes file extension. User is prompted to specify old and new extension.
+.NOTES
+    Author: Petr Maronek
+.LINK
+    https://insidecurlybrackets.azurewebsites.net/
+#>
 
 Clear-Host
 
