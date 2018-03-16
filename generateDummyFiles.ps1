@@ -5,7 +5,7 @@
 .NAME
     Dummy file enerator
 .DESCRIPTION
-    Changes file extension. User is prompted to specify old and new extension.
+    Generates specified amount of text files. This can be used for testing purposes. 
 .NOTES
     Author: Petr Maronek
 .LINK
