@@ -1,5 +1,16 @@
-# Author: Petr MAronek
-# Parse HTML formatted hyperlinks
+# HTMLHyperLink.ps1
+<#
+.SYNOPSIS
+    Parse HTML formatted hyperlinks
+.NAME
+    Extension Changer
+.DESCRIPTION
+    Changes file extension. User is prompted to specify old and new extension.
+.NOTES
+    Author: Petr Maronek
+.LINK
+    https://insidecurlybrackets.azurewebsites.net/
+#>
 
 Clear-Host
 
